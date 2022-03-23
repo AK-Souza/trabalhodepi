@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<!--ALice kaliane e João Victor-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia & Educação</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts/fontawesome-free-6.0.0-beta2-web/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <div id="menuToggle">
+            <div id="group-nav">
+                <ul class="f-left">
+                    <div id="botao-ham">
+                        <input id="chk-ham" onclick="expandir()" type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </ul>
+                <ul class="f-left">
+                    <div id="mainLogo"><a href="index.html" title="Página Inicial"></a></div>
+                </ul>
+                <ul id="busca" class="f-left">
+                    <li>
+                        <form id="search-form" action="/search" type="search">
+                            <input type="search" id="txtBusca" onblur="ocultarSearch();" onfocus="expandirSearch();"
+                                autocomplete="off" placeholder="Pesquisar... " />
+                            <i id="search-icon" class="fas fa-search"></i>
+                        </form>
+                    </li>
+                </ul>
+                <ul id="menu">
+                    <span class="divisor-nav"></span>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/navbar.js"></script>
+    </nav>
+
+    <span id="topo" style="position: absolute; top: 0;"></span>
+
+    <main id="conteudo" class="alinhar paginaInicial">
+        <section id="top10">
+            <h3>Tecnologia & Educação</h3>
+            <ol class="podio">
+                <li>É inegável que a tecnologia vem sendo uma poderosa aliada da educação, pois com seu auxílio foram deixadas para trás limitações do modelo tradicional como: a necessidade da presença física no ambiente de aula; disponibilidade de material educacional; facilidade de contato entre docente e discente; entre outras mais. 
+                    <br/>
+                    No entanto, nada é perfeito, existe a dificuldade de acesso aos equipamentos necessários para que o(a) aluno(a) possa engrenar no meio digital, isso se deve ao fato de que nem todas as famílias tem condições de arcar com os custos dos equipamentos e em casos até mesmo de Internet - algo que hoje em dia é tão presente no cotidiano - por tal motivo se faz necessário e benéfico que a escola junto com o ministério da educação disponibilize tais equipamentos afim de assegurar a integração de mais alunos(as) no meio virtual. Porém não é um tarefa tão fácil mas pelo menos ajudará a desenvolver a educação em nosso país. 
+                    <br/>
+                    São muitos fatores que fazem a união da tecnologia com a educação ser algo que deu bons frutos, pelo fato de que o(a) aluno(a) não necessariamente precisará sair de sua residência para ter aula, além de facilitar e otimizar a realização de atividades, tarefas e afazeres escolares. Muitas escolas particulares já vinham adicionando essa ferramenta em suas instituições e com o exemplo delas a rede pública também aderiu a tal artifício para ampliar seu "poder" educacional e alcançar mais pessoas. É algo em que valerá a pena investir até pelo fato de que a tecnologia vem se desenvolvendo e melhorando-se, então nada mais justo de que a educação acompanhar, não é?</li>
+            </ol>
+        </section>
+        <section id="favEdit">
+            <h3>Bibliografia</h3>
+                <ul id="list-favEdit" class="podio">
+                    <li>- GARCIA, Gabriela. Novas Tecnologias na Educação: Entenda como elas estão sendo adotadas nas escolas públicas. Prova Fácil: Soluções em processos de avaliação, 2017. Disponível em: https://www.provafacilnaweb.com.br/blog/novas-tecnologias-na-educacao-entenda-como-elas-estao-sendo-adotadas-nas-escolas-publicas/#.YjtIZ4KM2P4.link. Acesso em: 22 de março de 2022.</li>
+                    <li>- BESSA, Letícia. Qual o papel da tecnologia na educação e por que ela é tão importante nas escolas?
+                        . Imagine Educação, 2021. Disponível em: https://educacao.imaginie.com.br/o-papel-da-tecnologia-na-educacao/. Acesso em: 22 de março de 2022.</li>
+                    <li>- PADOVAN, Luiza. Tecnologia na educação: entenda os benefícios e desafios. Quero Bolsa, 2020. Disponível em: https://querobolsa.com.br/revista/tecnologia-na-educacao-entenda-os-beneficios-e-desafios. Acesso em: 22 de março de 2022.</li>
+
+                </ul>
+        </section>
+
+
+    </main>
+
+    <div id="irAoTopo">
+        <a href="#topo" class="fas" title="Ir ao topo"></a>
+    </div>
+
+    <footer>
+        <div id="rodape">
+            <ul>
+                <li><h4>Navegar</h4></li>
+                <li><a href="index.html">Página Inicial</a></li>
+            </ul>
+
+            <ul>
+                <li><h4>Sobre o Site</h4></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+        <div id="bg-notes"></div>
+        <div id="rodapeCreditos">
+            <div id="footerDesc">
+                <span id="fdescText">Integrantes do grupo: <span style="color: rgb(255, 255, 255);">Alice Kaliane e
+                        João Victor.</span> </span>
+                
+            </div>
+            <span id="rodapeBackTrasition"></span>
+        </div>
+
+    </footer>
+</body>
+
+</html>

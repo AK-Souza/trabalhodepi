@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<!--ALice kaliane e Pedro Gisélio-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Lyrics</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/fonts/fontawesome-free-6.0.0-beta2-web/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <div id="menuToggle">
+            <div id="group-nav">
+                <ul class="f-left">
+                    <div id="botao-ham">
+                        <input id="chk-ham" onclick="expandir()" type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </ul>
+                <ul class="f-left">
+                    <div id="mainLogo"><a href="index.html" title="Página Inicial"><img id="logo" src="imgs/TO LEFT.png" alt="" /></a></div>
+                </ul>
+                <ul id="busca" class="f-left">
+                    <li>
+                        <form id="search-form" action="/search" type="search">
+                            <input type="search" id="txtBusca" onblur="ocultarSearch();" onfocus="expandirSearch();"
+                                autocomplete="off" placeholder="Pesquisar... " />
+                            <i id="search-icon" class="fas fa-search"></i>
+                        </form>
+                    </li>
+                </ul>
+                <ul id="menu">
+                    <span class="divisor-nav"></span>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+            <div id="navBackGradient"> </div>
+        </div>
+        <script type="text/javascript" src="js/navbar.js"></script>
+    </nav>
+
+    <span id="topo" style="position: absolute; top: 0;"></span>
+
+    <main id="conteudo" class="alinhar paginaInicial">
+        <div id="sobreNos"> 
+            <div id="daLys">
+                <img class="imgsNos" id="alis" src="imgs/sobre/lulafofis.png" alt="">
+                <h1>Alice Kaliane</h1>
+                <p>Uma jovem de 17 anos com poucas aspirações, mas um deseja se tornar uma super pop star e cantar
+                    assim como sua idolo Barbie no filme Barbie, a princesa e a Pop Star. Seus hobbies incluem ler,
+                    chorar, filosofar com seus amigos, e nas horas vagas assiste algumas séries.</p>
+            </div>
+            <br/>
+            <div id="doPedo">
+                <img class="imgsNos" id="pedo" src="imgs/sobre/bolsinha.png" alt="">
+                <h1>João Victor</h1>
+                <p>Um rapaz que busca desenvolvimento constante e em contrapartida é preguiçoso, adora esportes e jogos, curte matemática e suas amizades</p>
+            </div>            
+        </div>
+    </main>
+
+    <div id="irAoTopo">
+        <a href="#topo" class="fas" title="Ir ao topo"></a>
+    </div>
+
+    <footer>
+        <div id="rodape">
+            <ul>
+                <li><h4>Navegar</h4></li>
+                <li><a href="index.html">Página Inicial</a></li>
+            </ul>
+            <ul>
+                <li><h4>Sobre o Site</h4></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+        <div id="bg-notes"></div>
+        <div id="rodapeCreditos">
+            <div id="footerDesc">
+                <span id="fdescText">Integrantes do grupo: <span style="color: pink;">Alice Kaliane e João Victor.</span> </span>
+                
+            </div>
+            <span id="rodapeBackTrasition"></span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
